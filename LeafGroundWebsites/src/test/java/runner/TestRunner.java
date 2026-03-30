@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
                 "html:target/test-output/reports.html",
                 "json:target/test-output/reports.json",
                 "junit:target/test-output/reports.xml"},
-        tags = "@spice"
+        tags = "@AlertSimpleDialog"
 )
 public class TestRunner {
 }

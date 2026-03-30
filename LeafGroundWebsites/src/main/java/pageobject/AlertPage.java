@@ -13,9 +13,10 @@ public class AlertPage {
 
     public void selectAlertSimpleDialogbutton(){
             driver.findElement(By.id("j_idt88:j_idt91")).click();
+            driver.switchTo().alert().accept();
     }
     public void selectAcceptAlertButton(){
-            driver.switchTo().alert().accept();
+
     }
     public String getTextAfterAcceptSimpleDialog(){
             return driver.findElement(By.id("simple_result")).getText();
